@@ -48,24 +48,10 @@ function getCity
 				alert("Not a valid city");
 			};
 
-//str.toLowerCase()
+			$("#city-type").val("");
+		};
 
-// $("#submit-btn").click(getCity);
-// 	console.log("submit button clicked");
-
-// 	function getCity() {
-// 		var city = $("#city-type").val();
-// 			console.log(city);
-
-// 		if (city === 'New York'|| 'NYC' || 'New York City' ) {
-// 			$("body").attr('background', cityImage[currentCity]);
-// 		} 
-
-
-$("#city-type").val("");
-};
-
-});
+	});
 
 
 
